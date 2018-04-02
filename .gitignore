@@ -1,0 +1,9 @@
+.idea/*
+vendor/*
+Vagrantfile
+composer.phar
+composer.lock
+css/.idea/*
+app/.idea/*
+PrePHase/.idea/*
+PrePHase.git/*
