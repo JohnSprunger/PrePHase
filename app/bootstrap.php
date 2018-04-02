@@ -1,2 +1,6 @@
 <?php
-echo "<h2> Bootstrap is working </h2>";
+
+// Load libraries
+require_once 'libraries/Core.php';
+require_once 'libraries/Controller.php';
+require_once 'libraries/Database.php';
