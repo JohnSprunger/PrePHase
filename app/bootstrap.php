@@ -1,7 +1,2 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: john.sprunger
- * Date: 4/2/2018
- * Time: 10:26 AM
- */
+echo "<h2> Bootstrap is working </h2>";
