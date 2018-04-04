@@ -1,2 +1,2 @@
-<h1><?php echo $data['title']; ?></h1>
-<?php echo APPROOT; ?>
+<!-- Adding header file -->
+<?php require APPROOT . '/views/inc/require.php'; ?>
