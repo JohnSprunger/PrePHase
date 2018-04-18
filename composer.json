@@ -1,0 +1,7 @@
+{
+  "name": "JohnSprunger/PrePHase",
+  "description": "A simple, lightweight, PHP framework.",
+  "require": {
+    "php": "^5.3.3 || ^7.0"
+  }
+}

@@ -1,4 +1,9 @@
 <?php
+/*
+ * Post Class
+ * Give's user an example of how to talk
+ * to a specific table, in this case "posts"
+ */
 class Post{
     private $db;
 
@@ -7,8 +12,8 @@ class Post{
     }
 
     public function getPosts(){
-        $this->db->query('SELECT * FROM posts');
+        //$this->db->query('SELECT * FROM posts');
 
-        return $this->db->resultSet();
+        //return $this->db->resultSet();
     }
 }
