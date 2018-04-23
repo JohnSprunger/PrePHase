@@ -7,18 +7,18 @@
     public function index(){
         $posts = $this->postModel->getPosts();
 
-        $data = [
+        $data = array(
             'title' => 'Welcome',
             'posts' => $posts
-        ];
+        );
 
         $this->view('pages/index', $data);
     }
 
     public function about(){
-        $data = [
+        $data = array(
             'title' => 'About Us'
-        ];
+        );
 
         $this->view('pages/about', $data);
     }
