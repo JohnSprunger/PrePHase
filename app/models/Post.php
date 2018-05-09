@@ -8,7 +8,7 @@ class Post{
     private $db;
 
     public function __construct(){
-        $this->db = new Database;
+        $this->db = new PrePHase\libraries\Database;
     }
 
     public function getPosts(){

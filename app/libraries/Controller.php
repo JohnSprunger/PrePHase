@@ -1,8 +1,8 @@
-<?php
-  /*
-   * Base Controller
-   * Loads the models and views
-   */
+<?php namespace PrePHase\libraries;
+/*
+ * Base Controller
+ * Loads the models and views
+ */
   class Controller {
     // Load model
     public function model($model){

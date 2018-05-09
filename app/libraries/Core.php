@@ -1,9 +1,10 @@
-<?php
-  /*
-   * App Core Class
-   * Creates URL & loads core controller
-   * URL FORMAT - /controller/method/params
-   */
+<?php namespace PrePHase\libraries;
+use PrePHase\controllers\Pages;
+/*
+ * App Core Class
+ * Creates URL & loads core controller
+ * URL FORMAT - /controller/method/params
+ */
   class Core {
     protected $currentController = 'Pages';
     protected $currentMethod = 'index';
@@ -25,8 +26,9 @@
       // Require the controller
       require_once '../app/controllers/'. $this->currentController . '.php';
 
+      $bandaidVariable = "PrePHase\\controllers\\" . $this->currentController;
       // Instantiate controller class
-      $this->currentController = new $this->currentController;
+      $this->currentController = new $bandaidVariable;
 
       // Check for second part of url
       if(isset($url[1])){
@@ -54,5 +56,4 @@
       }
     }
   } 
-  
   

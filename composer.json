@@ -2,6 +2,7 @@
   "name": "john-sprunger/pre-phase",
   "description": "A simple, lightweight, PHP framework.",
   "require": {
-    "php": "^5.3.3 || ^7.0"
+    "php": "^5.3.3 || ^7.0",
+    "twig/twig": "^2.0"
   }
 }

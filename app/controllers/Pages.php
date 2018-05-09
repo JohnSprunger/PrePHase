@@ -1,4 +1,6 @@
-<?php
+<?php namespace PrePHase\controllers;
+  use PrePHase\libraries\Controller;
+
   class Pages extends Controller {
     public function __construct(){
         $this->postModel = $this->model('Post');
