@@ -2,10 +2,14 @@
 // Add configuration
 require_once 'config/config.php';
 
-// Autoload Core Libraries
-//  spl_autoload_register(function($className){
-//      require_once 'libraries/' . $className . '.php';
-//  });
+// Load our autoloader
+require_once '../vendor/autoload.php';
+
+// Specify our Twig templates location
+$loader = new Twig_Loader_Filesystem(__DIR__.'/views/inc');
+
+// Instantiate our Twig
+$twig = new Twig_Environment($loader);
 
 spl_autoload_register(function ($class){
 
